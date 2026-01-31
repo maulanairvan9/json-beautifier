@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>JSON Beautifier Online</title>
+  <meta name="description" content="Free online JSON Beautifier and Validator">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+  <h1>JSON Beautifier</h1>
+  <p class="subtitle">Format, validate, and minify JSON instantly</p>
+
+  <textarea id="input" placeholder="Paste JSON here..."></textarea>
+
+  <div class="buttons">
+    <button onclick="beautify()">Beautify</button>
+    <button onclick="minify()">Minify</button>
+    <button onclick="clearAll()">Clear</button>
+  </div>
+
+  <pre id="output"></pre>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
+
