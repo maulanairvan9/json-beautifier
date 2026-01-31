@@ -101,3 +101,45 @@ pre {
 button {
   margin-top: 8px;
 }
+
+/* JSON syntax highlight */
+.json-key {
+  color: #1d4ed8;
+}
+
+.json-string {
+  color: #047857;
+}
+
+.json-number {
+  color: #b45309;
+}
+
+.json-boolean {
+  color: #7c3aed;
+}
+
+.json-null {
+  color: #dc2626;
+}
+
+/* Dark mode override */
+.dark-mode .json-key {
+  color: #93c5fd;
+}
+
+.dark-mode .json-string {
+  color: #6ee7b7;
+}
+
+.dark-mode .json-number {
+  color: #fcd34d;
+}
+
+.dark-mode .json-boolean {
+  color: #c4b5fd;
+}
+
+.dark-mode .json-null {
+  color: #fca5a5;
+}
