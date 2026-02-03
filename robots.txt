@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://json-beautifier-online.netlify.app/sitemap.xml
+Sitemap: https://ngnafi.github.io/json-beautifier/sitemap.xml
