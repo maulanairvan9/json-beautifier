@@ -329,3 +329,19 @@ details p {
   line-height: 1.6;
   font-size: 0.95rem;
 }
+
+.btn-secondary {
+    background-color: #2ecc71; /* Warna hijau sukses */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+
+.btn-secondary:hover {
+    background-color: #27ae60;
+}
+
